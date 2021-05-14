@@ -27,7 +27,7 @@
     <meta name="viewport" content="width=device-width" />
   </head>
   <body>
-    <a href="#conteudoPrincipal" class="pularNavegacao"
+    <a href="#conteudoPrincipal" id="pularNavegacao"
       >Pular para conteúdo principal</a
     >
 
@@ -429,8 +429,8 @@
                 class="dialogNewsletter-campo"
                 placeholder="Digite seu e-mail..."
               />
-              <button class="dialogNewsletter-btn">Assinar newsletter</button>
-              <button class="dialogNewsletter-fechar">X</button>
+              <button class="dialogNewsletter-btn" type="submit">Assinar newsletter</button>
+              <button class="dialogNewsletter-fechar" type="button">X</button>
             </form>
           </div>
           <div class="dialogNewsletter-overlay"></div>
@@ -439,7 +439,7 @@
       </section>
       <!--fim .secaoDestaques-->
 
-      <section class="secaoContato">
+      <section class="secaoContato" inert="true">
         <div class="container">
           <h2 class="tituloPadrao">CONTATO</h2>
 
@@ -659,6 +659,7 @@
       </div>
     </footer>
     <script src="js/carousel.js"></script>
+    <script src="/node_modules/wicg-inert/dist/inert.min.js"></script>
     <script src="js/dialog.js"></script>
   </body>
 </html>

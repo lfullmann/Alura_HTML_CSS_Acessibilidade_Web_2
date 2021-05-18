@@ -1,44 +1,46 @@
+
 .secaoPlanos {
   text-align: center;
-  background-color: #f7f4f4;
+  background-color: #F7F4F4;
 }
 
 .secaoPlanos-plano {
   border-radius: 5px;
   background-color: #fff;
   width: 80%;
-  margin: 0 0.5em 2em 0.5em;
+  margin: 0 .5em 2em .5em;
   padding-bottom: 2em;
   box-shadow: 0 2px 9px #ddd;
   max-width: 300px;
   display: inline-block;
+
 }
 
 .secaoPlanos-plano--start {
-  color: #56ccf2;
+  color: #56CCF2;
 }
 
 .secaoPlanos-plano--ultra {
-  color: #b04cd9;
+  color: #B04CD9;
 }
 
 .secaoPlanos-plano--mega {
-  color: #e33b3b;
+  color: #E33B3B;
 }
 
 .secaoPlanos-plano-titulo {
   color: inherit;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bolder;
   width: 100%;
-  padding: 0.4em 1em;
+  padding: .4em 1em;
   font-size: 1.5em;
-  border-bottom: 1px solid #dfe3e5;
-  margin-bottom: 0.5em;
+  border-bottom: 1px solid #DFE3E5;
+  margin-bottom: .5em;
 }
 
 .secaoPlanos-plano-moeda {
-  font-size: 0.4em;
+  font-size: .4em;
   font-weight: normal;
   vertical-align: top;
   line-height: 2.5;
@@ -51,7 +53,7 @@
   text-align: center;
   font-size: 3em;
   margin-top: 12px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   display: inline;
   position: relative;
 }
@@ -73,8 +75,8 @@
   border-width: 1px;
   border-style: solid;
   border-color: inherit;
-  padding: 0.4em 1.5em;
-  transition: 0.1s ease-in;
+  padding: .4em 1.5em;
+  transition: .1s ease-in;
 }
 
 .secaoPlanos-plano-btn:hover,
@@ -84,25 +86,28 @@
 
 .secaoPlanos-plano:nth-of-type(1) .secaoPlanos-plano-btn:hover,
 .secaoPlanos-plano:nth-of-type(1) .secaoPlanos-plano-btn:focus {
-  background-color: #56ccf2;
+  background-color: #56CCF2;
 }
 
 .secaoPlanos-plano:nth-of-type(2) .secaoPlanos-plano-btn:hover,
 .secaoPlanos-plano:nth-of-type(2) .secaoPlanos-plano-btn:focus {
-  background-color: #b04cd9;
+  background-color: #B04CD9;
 }
 
 .secaoPlanos-plano:nth-of-type(3) .secaoPlanos-plano-btn:hover,
 .secaoPlanos-plano:nth-of-type(3) .secaoPlanos-plano-btn:focus {
-  background-color: #e33b3b;
+  background-color: #E33B3B;
 }
 
 .secaoPlanos-plano-titulo--destaque {
-  background-color: #b72e2e;
+  background-color: #B72E2E;
 }
 
+
 @media (min-width: 830px) {
+
   .secaoPlanos-plano {
     max-width: 260px;
   }
+
 }

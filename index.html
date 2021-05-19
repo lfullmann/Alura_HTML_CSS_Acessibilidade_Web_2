@@ -464,8 +464,9 @@
                 </div>
 
                 <div class="contatoCampo contatoCampo--erro">
-                  <label>Telefone: </label>
+                  <label for="telefone">Telefone: </label>
                   <input
+                    id="telefone"
                     type="text"
                     class="contatoCampo--validouErro"
                     placeholder="(11) 5571-2751"
@@ -476,8 +477,9 @@
                 </div>
 
                 <div class="contatoCampo">
-                  <label>CEP: </label>
+                  <label for="cep">CEP: </label>
                   <input
+                    id="cep"
                     type="text"
                     maxlength="8"
                     placeholder="Exemplo: 04101-300"
@@ -486,8 +488,9 @@
                 </div>
 
                 <div class="contatoCampo">
-                  <label>Endereço: </label>
+                  <label for="endereco">Endereço: </label>
                   <input
+                    id="endereco"
                     type="text"
                     class="contatoCampo-campoDesabilitado"
                     readonly
@@ -496,8 +499,9 @@
                 </div>
 
                 <div class="contatoCampo">
-                  <label>Bairro: </label>
+                  <label for="bairro">Bairro: </label>
                   <input
+                    id="bairro"
                     type="text"
                     class="contatoCampo-campoDesabilitado"
                     readonly
@@ -506,8 +510,9 @@
                 </div>
 
                 <div class="contatoCampo">
-                  <label>Cidade: </label>
+                  <label for="cidade">Cidade: </label>
                   <input
+                    label="cidade"
                     type="text"
                     class="contatoCampo-campoDesabilitado"
                     readonly
@@ -516,8 +521,9 @@
                 </div>
 
                 <div class="contatoCampo">
-                  <label>Estado: </label>
+                  <label for="estado">Estado: </label>
                   <input
+                    label="estado"
                     type="text"
                     class="contatoCampo-campoDesabilitado"
                     readonly
@@ -526,8 +532,14 @@
                 </div>
 
                 <div class="contatoCampo">
-                  <label>Mensagem: </label>
-                  <textarea name="" cols="30" rows="10" required></textarea>
+                  <label for="mensagem">Mensagem: </label>
+                  <textarea
+                    id="mensagem"
+                    name=""
+                    cols="30"
+                    rows="10"
+                    required
+                  ></textarea>
                 </div>
 
                 <div class="contatoCampo">
@@ -696,5 +708,6 @@
     <script src="js/carousel.js"></script>
     <script src="js/inert.js"></script>
     <script src="js/dialog.js"></script>
+    <script src="js/validacao-cep.js"></script>
   </body>
 </html>

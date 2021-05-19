@@ -1,11 +1,12 @@
+
 .secaoContato {
-  background-color: #f7f4f4;
+  background-color: #F7F4F4;
   text-align: center;
   text-align: left;
 }
 
 .secaoContato-wink {
-  color: #eb5757;
+  color: #EB5757;
   font-weight: bold;
   font-size: 1.2em;
 }
@@ -19,9 +20,6 @@
   line-height: 1.6;
   text-align: center;
   margin: 0 auto;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .secaoContato-form-cta {
@@ -29,12 +27,12 @@
   margin-top: 1em;
   display: block;
   background: transparent;
-  color: #b72e2e;
-  border: 1px solid #b72e2e;
+  color: #B72E2E;
+  border: 1px solid #B72E2E;
 }
 
 .secaoContato-form-cta:hover,
 .secaoContato-form-cta:focus {
   color: #fff;
-  background-color: #b72e2e;
+  background-color: #B72E2E;
 }

@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Open Sans", "Segoe UI", sans-serif;
+  font-family: 'Open Sans', 'Segoe UI', sans-serif;
 }
 
 ul {
@@ -10,9 +10,5 @@ ul {
 }
 
 a {
-  color: #2f80ed;
-}
-
-fieldset {
-  border: 0;
+  color: #2F80ED;
 }
